@@ -2,10 +2,10 @@
 require "yaml"
 require "pp"
 
-def load_library
+def load_library(file_path)
   data = nil
 
-  data = YAML.load_file('emoticons.yml')
+  data = YAML.load_file(file_path)
 
   pp data
   return data
