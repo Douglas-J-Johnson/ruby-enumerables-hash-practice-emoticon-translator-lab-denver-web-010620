@@ -5,7 +5,9 @@ require "pp"
 def load_library
   data = nil
 
-
+  data = YAML.load_file('emoticons.yml')
+  
+  return data
 end
 
 def get_japanese_emoticon
