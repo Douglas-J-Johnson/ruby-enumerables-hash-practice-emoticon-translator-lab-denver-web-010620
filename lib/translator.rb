@@ -12,7 +12,7 @@ def load_library(file_path)
   data = nil
 
   data = YAML.load_file(file_path)
-
+  data = transform_data(data)
   #pp data
   return data
 end
