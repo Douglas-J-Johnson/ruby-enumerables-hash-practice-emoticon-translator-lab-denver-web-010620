@@ -5,6 +5,10 @@ require "pp"
 def transform_data(data)
   transformed_data = nil
 
+  data.each do |key, value|
+
+  end
+
   return transformed_data
 end
 
@@ -12,7 +16,7 @@ def load_library(file_path)
   data = nil
 
   data = YAML.load_file(file_path)
-  pp data
+  #pp data
   data = transform_data(data)
 
   return data
