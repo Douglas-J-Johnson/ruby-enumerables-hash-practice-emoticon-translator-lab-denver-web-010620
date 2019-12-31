@@ -1,7 +1,11 @@
 # require modules here
+require "yaml"
+require "pp"
 
 def load_library
-  # code goes here
+  data = nil
+
+  
 end
 
 def get_japanese_emoticon
