@@ -5,7 +5,7 @@ require "pp"
 def load_library
   data = nil
 
-  
+
 end
 
 def get_japanese_emoticon
