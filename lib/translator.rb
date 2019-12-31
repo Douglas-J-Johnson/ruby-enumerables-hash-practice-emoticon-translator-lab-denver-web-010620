@@ -2,6 +2,12 @@
 require "yaml"
 require "pp"
 
+def transform_data(data)
+  transformed_data = nil
+
+  return transformed_data
+end
+
 def load_library(file_path)
   data = nil
 
