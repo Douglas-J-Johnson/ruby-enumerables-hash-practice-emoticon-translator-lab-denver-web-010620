@@ -7,6 +7,7 @@ def load_library
 
   data = YAML.load_file('emoticons.yml')
 
+  pp data
   return data
 end
 
